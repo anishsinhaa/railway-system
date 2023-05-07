@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Train Ticket Booking</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="book-0.css" />
+    <script src="book-0.js" type="module"></script>
+  </head>
+  <body>
+    <container id="con">
+      <div>
+        <h1>Railway Reservation System</h1>
+        <br /><br />
+        <h3>Please select number of Passengers and confirm your Ticket</h3>
+      </div>
+    </container>
+
+    <form>
+      <label>Train Name:</label>
+      <label id="train-name"> </label>
+      <br /><br />
+      <label>Train No:</label>
+      <label id="train-no"> </label>
+      <br /><br />
+      <label>Train Departure:</label>
+      <label id="train-departure"> </label>
+      <br /><br />
+      <label>Train Duration:</label>
+      <label id="train-duration"> </label>
+      <br /><br />
+      <label>From Station:</label>
+      <label id="from"> </label>
+      <br /><br />
+      <label>To Station:</label>
+      <label id="to"> </label>
+      <br /><br />
+      <label>Date of Travel:</label>
+      <label id="date"> </label>
+      <br /><br />
+      <label>Cost per Ticket:</label>
+      <label id="price"> </label>
+      <br /><br />
+      <label for="totalPassengers">Select Number of Passengers:</label>
+      <input type="number" id="num-of-passengers" min="1" max="10" value="1" />
+
+      <label>Total Cost:</label>
+      <label id="cost"> </label>
+      <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <submit>
+        <button id="submitBtn" type="submit">
+          Fill Passenger Details
+        </button></submit
+      >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <cancel>
+        <button id="cancelBtn" type="submit">CANCEL</button>
+      </cancel>
+    </form>
+  </body>
+</html>

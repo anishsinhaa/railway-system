@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Train Ticket Details</title>
+    <style>
+      body {
+        background-image: url("ticketbg.jpg");
+        font-family: Arial, sans-serif;
+        background-color: transparent;
+      }
+      h1 {
+        text-align: center;
+        color: #000000;
+      }
+      #container {
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        background-color: rgb(117, 120, 111);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+      }
+      .btn {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .btn:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+    <script src="ticket.js"></script>
+  </head>
+  <body>
+    <h1>Train Ticket Details</h1>
+    <div id="container">
+      <div id="passengerDetails"></div>
+      <h2>Booking Information</h2>
+      <div id="trainDetails">
+        <strong>
+          <p>Name: <el id="name"></el></p>
+          <p>PNR NO : <el id="pnr"></el></p>
+          <p>Train Name: <el id="train-name"></el></p>
+          <p>Train No: <el id="train-no"></el></p>
+          <p>Train Origin: <el id="train-origin"></el></p>
+          <p>Train Destination: <el id="train-destination"></el></p>
+          <p>Date: <el id="train-date"></el></p>
+          <p>Departure Time: <el id="train-departure"></el></p>
+          <p>Seat Number: <el id="seat"></el></p>
+          <h2>Payment Information</h2>
+          <p>Payment Method: Debit Card</p>
+          <p>Amount Paid:<el id="totalCost"></el></p>
+        </strong>
+        <button class="btn" onclick="window.print()">Print Ticket</button>
+      </div>
+    </div>
+  </body>
+</html>

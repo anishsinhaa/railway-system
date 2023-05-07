@@ -1,0 +1,136 @@
+/* Define the font family and colors for the page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #005daa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the booking section */
+  .bookingsection {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ddd;
+  }
+  
+  .bookingsection h1 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  
+  .bookingsection input[type="text"],
+  .bookingsection select,
+  .bookingsection input[type="date"] {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .bookingsection select {
+    margin-left: 20px;
+  }
+  
+  .bookingsection button {
+    background-color: #005daa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .bookingsection button:hover {
+    background-color: #004c8c;
+  }
+  
+  /* Style the aside section */
+  aside {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  aside li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the sub-menus */
+  .sub-menu-1,
+  .sub-menu-2 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ddd;
+  }
+  
+  .hover-me:hover .sub-menu-1 {
+    display: block;
+  }
+  
+  .sub-menu-1 li:hover .sub-menu-2 {
+    display: block;
+  }
+  
+  .sub-menu-2 li {
+    margin-left: 20px;
+  }
+  

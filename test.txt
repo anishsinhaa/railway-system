@@ -1,0 +1,15 @@
+//book-0.js
+const submitBtn = document.getElementById("submitBtn");
+  submitBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    let passengers = document.querySelector("input").value;
+    localStorage.setItem("passengers", passengers);
+    console.log(passengers);
+    window.location.href = "passengerDetails.html";
+  });
+
+//passengerDetails.js
+  const numOfPassengers = localStorage.getItem("numOfPassengers");
+  console.log(numOfPassengers);
+  const train = localStorage.getItem("train");
+  console.log(train);

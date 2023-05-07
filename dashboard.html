@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Railway Reservation System - User Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="hp.css" />
+    <link rel="stylesheet" type="text/css" href="dashboard.css" />
+    <script src="dashboard.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Railway Reservation System</h1>
+      <div class="menu-bar">
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="#">Book Ticket</a></li>
+          <li><a href="logout.html">Logout</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <h2 id="greet">Welcome</h2>
+      <section>
+        <h3>Upcoming Trains</h3>
+        <table>
+          <tr>
+            <th>Train Name</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Date</th>
+          </tr>
+          <tr id="trainrow">
+            <td>R&D Express</td>
+            <td>Main Gate</td>
+            <td>R&D Building</td>
+            <td>15-04-2023</td>
+          </tr>
+          <tr id="trainrow">
+            <td>Inner-Circle Local</td>
+            <td>H-7</td>
+            <td>Inner Circle</td>
+            <td>20-04-2023</td>
+          </tr>
+        </table>
+      </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <section>
+        <form id="search-form">
+          <button id="submitButton">Search Trains</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Railway Reservation System. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("payment-bg.png");
+  background-color: transparent;
+}
+header {
+  height: 150px;
+  width: 500px;
+  margin: 50px 500px;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  border: #3e8e41;
+  border-radius: 2px;
+  border-width: 2px;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3e8e41;
+}
